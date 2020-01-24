@@ -1,0 +1,29 @@
+{
+  "name": "react-native-impresa-analytics",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TfADrama/react-native-impresa-analytics.git"
+  },
+  "keywords": [
+    "analytics",
+    "impresa",
+    "chartbeat",
+    "netscope"
+  ],
+  "author": "Tiago Freitas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TfADrama/react-native-impresa-analytics/issues"
+  },
+  "homepage": "https://github.com/TfADrama/react-native-impresa-analytics#readme",
+  "dependencies": {
+    "react-native-impresa-chartbeat": "git+https://github.com/TfADrama/react-native-impresa-chartbeat.git",
+    "react-native-impresa-netscope": "git+https://github.com/TfADrama/react-native-impresa-netscope.git"
+  }
+}
