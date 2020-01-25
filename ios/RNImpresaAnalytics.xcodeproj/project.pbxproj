@@ -5,11 +5,29 @@
 	};
 	objectVersion = 46;
 	objects = {
+
 /* Begin PBXBuildFile section */
-		B3E7B58A1CC2AC0600A0062D /* RNImpresaAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNImpresaAnalytics.m */; };
 		4902FEFA1BEF44B79161F985 /* libRNImpresaNetscope.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43DA53BDA15C4412BEEDFA5D /* libRNImpresaNetscope.a */; };
 		54314280E0A14A05B8C31D6F /* libRNImpresaChartbeat.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3851DF544A6449FFA391B1A6 /* libRNImpresaChartbeat.a */; };
+		B3E7B58A1CC2AC0600A0062D /* RNImpresaAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNImpresaAnalytics.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC8B31F323DCD5DB00719D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6CD6B05EA394DD3BBB9BCEF /* RNImpresaChartbeat.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNImpresaChartbeat;
+		};
+		FC8B31F623DCD5DB00719D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EFD95A9750349E0B0B017D1 /* RNImpresaNetscope.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNImpresaNetscope;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -25,12 +43,12 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNImpresaAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNImpresaAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3851DF544A6449FFA391B1A6 /* libRNImpresaChartbeat.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImpresaChartbeat.a; sourceTree = "<group>"; };
+		43DA53BDA15C4412BEEDFA5D /* libRNImpresaNetscope.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNImpresaNetscope.a; sourceTree = "<group>"; };
+		6EFD95A9750349E0B0B017D1 /* RNImpresaNetscope.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImpresaNetscope.xcodeproj; path = "../node_modules/react-native-impresa-netscope/ios/RNImpresaNetscope.xcodeproj"; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNImpresaAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNImpresaAnalytics.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNImpresaAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNImpresaAnalytics.m; sourceTree = "<group>"; };
-		6EFD95A9750349E0B0B017D1 /* RNImpresaNetscope.xcodeproj */ = {isa = PBXFileReference; name = "RNImpresaNetscope.xcodeproj"; path = "../node_modules/react-native-impresa-netscope/ios/RNImpresaNetscope.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		43DA53BDA15C4412BEEDFA5D /* libRNImpresaNetscope.a */ = {isa = PBXFileReference; name = "libRNImpresaNetscope.a"; path = "libRNImpresaNetscope.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
-		E6CD6B05EA394DD3BBB9BCEF /* RNImpresaChartbeat.xcodeproj */ = {isa = PBXFileReference; name = "RNImpresaChartbeat.xcodeproj"; path = "../node_modules/react-native-impresa-chartbeat/ios/RNImpresaChartbeat.xcodeproj"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = wrapper.pb-project; explicitFileType = undefined; includeInIndex = 0; };
-		3851DF544A6449FFA391B1A6 /* libRNImpresaChartbeat.a */ = {isa = PBXFileReference; name = "libRNImpresaChartbeat.a"; path = "libRNImpresaChartbeat.a"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = archive.ar; explicitFileType = undefined; includeInIndex = 0; };
+		E6CD6B05EA394DD3BBB9BCEF /* RNImpresaChartbeat.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNImpresaChartbeat.xcodeproj; path = "../node_modules/react-native-impresa-chartbeat/ios/RNImpresaChartbeat.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2CF0A543FC0543D59F033EC5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6EFD95A9750349E0B0B017D1 /* RNImpresaNetscope.xcodeproj */,
+				E6CD6B05EA394DD3BBB9BCEF /* RNImpresaChartbeat.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
@@ -61,18 +88,34 @@
 				B3E7B5891CC2AC0600A0062D /* RNImpresaAnalytics.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
 				2CF0A543FC0543D59F033EC5 /* Libraries */,
+				FC8B31ED23DCD5DB00719D27 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
-		2CF0A543FC0543D59F033EC5 /* Libraries */ = {
-			isa = "PBXGroup";
+		FC8B31ED23DCD5DB00719D27 /* Recovered References */ = {
+			isa = PBXGroup;
 			children = (
-				6EFD95A9750349E0B0B017D1 /* RNImpresaNetscope.xcodeproj */,
-				E6CD6B05EA394DD3BBB9BCEF /* RNImpresaChartbeat.xcodeproj */,
+				43DA53BDA15C4412BEEDFA5D /* libRNImpresaNetscope.a */,
+				3851DF544A6449FFA391B1A6 /* libRNImpresaChartbeat.a */,
 			);
-			name = Libraries;
+			name = "Recovered References";
 			sourceTree = "<group>";
-			path = "";
+		};
+		FC8B31EE23DCD5DB00719D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B31F723DCD5DB00719D27 /* libRNImpresaNetscope.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC8B31F023DCD5DB00719D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC8B31F423DCD5DB00719D27 /* libRNImpresaChartbeat.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -113,17 +156,45 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FC8B31F023DCD5DB00719D27 /* Products */;
+					ProjectRef = E6CD6B05EA394DD3BBB9BCEF /* RNImpresaChartbeat.xcodeproj */;
+				},
+				{
+					ProductGroup = FC8B31EE23DCD5DB00719D27 /* Products */;
+					ProjectRef = 6EFD95A9750349E0B0B017D1 /* RNImpresaNetscope.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNImpresaAnalytics */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FC8B31F423DCD5DB00719D27 /* libRNImpresaChartbeat.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNImpresaChartbeat.a;
+			remoteRef = FC8B31F323DCD5DB00719D27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FC8B31F723DCD5DB00719D27 /* libRNImpresaNetscope.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNImpresaNetscope.a;
+			remoteRef = FC8B31F623DCD5DB00719D27 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -243,6 +314,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/RNImpresaAnalytics\"",
 					"\"$(SRCROOT)/RNImpresaAnalytics\"",
+					"\"$(SRCROOT)/../\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNImpresaAnalytics;
@@ -263,6 +335,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/RNImpresaAnalytics\"",
 					"\"$(SRCROOT)/RNImpresaAnalytics\"",
+					"\"$(SRCROOT)/../\"",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNImpresaAnalytics;
