@@ -1,6 +1,7 @@
 {
   "name": "react-native-impresa-analytics",
-  "version": "0.0.1",
+  "title": "React Native Impresa Analytics",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,22 +9,29 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TfADrama/react-native-impresa-analytics.git"
+    "url": "git+https://github.com/github_account/react-native-impresa-analytics.git",
+    "baseUrl": "https://github.com/github_account/react-native-impresa-analytics"
   },
   "keywords": [
-    "analytics",
-    "impresa",
-    "chartbeat",
-    "netscope"
+    "react-native"
   ],
-  "author": "Tiago Freitas",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/TfADrama/react-native-impresa-analytics/issues"
+  "author": {
+    "name": "Tiago Freitas",
+    "email": "yourname@email.com"
   },
-  "homepage": "https://github.com/TfADrama/react-native-impresa-analytics#readme",
+  "license": "Apache-2.0",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0"
+  },
   "dependencies": {
     "react-native-impresa-chartbeat": "git+https://github.com/TfADrama/react-native-impresa-chartbeat.git",
     "react-native-impresa-netscope": "git+https://github.com/TfADrama/react-native-impresa-netscope.git"
+  },
+  "devDependencies": {
+    "react": "16.2.0",
+    "react-native": "^0.52.0"
   }
 }
