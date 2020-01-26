@@ -6,16 +6,21 @@ class RNImpresaAnalytics {
     Chartbeat.setup();
   }
 
+  isNetscopeConfigured = false;
+
   setupNetscope(appInfo, version, hitCollectorHost, scriptIdentifier) {
     Netscope.setupTracker(appInfo, version, hitCollectorHost, scriptIdentifier);
+    isNetscopeConfigured = true;
   }
 
-  static sendAnalytics(message, { title }) {
+  sendAnalytics(message, { title }) {
     const value = String(message).toLowerCase();
 
-    Netscope.sendAnalytics(value);
+    if (this.isNetscopeConfigured && message) {
+      Netscope.sendAnalytics(value);
+    }
 
-    if (title) {
+    if (message && title) {
       Chartbeat.sendAnalytics(value, title);
     }
   }
