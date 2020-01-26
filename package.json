@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-impresa-analytics.git",
-    "baseUrl": "https://github.com/github_account/react-native-impresa-analytics"
+    "url": "git+https://github.com/TfADrama/react-native-impresa-analytics.git",
+    "baseUrl": "https://github.com/TfADrama/react-native-impresa-analytics"
   },
   "keywords": [
     "react-native"
@@ -23,15 +23,13 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "16.2.0",
-    "react-native": "^0.52.0"
-  },
-  "dependencies": {
+    "react": "^16.8.1",
+    "react-native": ">=0.59.0-rc.0 <1.0.x"
     "react-native-impresa-chartbeat": "git+https://github.com/TfADrama/react-native-impresa-chartbeat.git",
     "react-native-impresa-netscope": "git+https://github.com/TfADrama/react-native-impresa-netscope.git"
   },
   "devDependencies": {
-    "react": "16.2.0",
-    "react-native": "^0.52.0"
+    "react": "^16.8.3",
+    "react-native": "^0.59.10"
   }
 }
