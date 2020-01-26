@@ -6,11 +6,14 @@
 
 #### Install Peer Dependencies
 `$ npm install react-native-impresa-netscope@git+https://github.com/TfADrama/react-native-impresa-netscope.git --save`
+
 `$ npm install react-native-impresa-chartbeat@git+https://github.com/TfADrama/react-native-impresa-chartbeat.git --save`
 
 #### Link everything
 `$ react-native link react-native-impresa-analytics`
+
 `$ react-native link react-native-impresa-netscope`
+
 `$ react-native link react-native-impresa-chartbeat`
 
 
