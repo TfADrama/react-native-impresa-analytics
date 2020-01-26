@@ -3,8 +3,11 @@ import Chartbeat from "react-native-impresa-chartbeat";
 
 class RNImpresaAnalytics {
   constructor() {
-    Netscope.setup();
     Chartbeat.setup();
+  }
+
+  setupNetscope(appInfo, version, hitCollectorHost, scriptIdentifier) {
+    Netscope.setupTracker(appInfo, version, hitCollectorHost, scriptIdentifier);
   }
 
   static sendAnalytics(message, { title }) {
