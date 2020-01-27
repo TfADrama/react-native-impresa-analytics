@@ -2,14 +2,16 @@ import Netscope from "react-native-impresa-netscope";
 import Chartbeat from "react-native-impresa-chartbeat";
 
 class RNImpresaAnalytics {
-  constructor() {
-    Chartbeat.setup();
-  }
-
   isNetscopeConfigured = false;
+  isChartbeatConfigured = false;
 
   setupNetscope(appInfo, version, hitCollectorHost, scriptIdentifier) {
     Netscope.setupTracker(appInfo, version, hitCollectorHost, scriptIdentifier);
+    isNetscopeConfigured = true;
+  }
+
+  setupChartbeat(accountId, domain) {
+    Chartbeat.setupTracker(accountId, domain);
     isNetscopeConfigured = true;
   }
 
@@ -20,7 +22,7 @@ class RNImpresaAnalytics {
       Netscope.sendAnalytics(value);
     }
 
-    if (message && title) {
+    if (this.isChartbeatConfigured && message && title) {
       Chartbeat.sendAnalytics(value, title);
     }
   }
